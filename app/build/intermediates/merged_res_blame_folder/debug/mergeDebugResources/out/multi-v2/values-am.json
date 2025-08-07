@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hygeiaapp-mergeDebugResources-45:/values-am/values-am.xml",
+            "outputFile": "com.example.hygeiaapp-mergeDebugResources-51:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\07dde43b54a7c6102e664f3c52ee37ed\\transformed\\core-1.16.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\b314af1bc5875ed342522eee89797d52\\transformed\\foundation-release\\res\\values-am\\values-am.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,148,248,345,444,540,642,742",
-                        "endColumns": "92,99,96,98,95,101,99,100",
-                        "endOffsets": "143,243,340,439,535,637,737,838"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,142",
+                        "endColumns": "86,85",
+                        "endOffsets": "137,223"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,81",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,298,395,494,590,692,7873",
-                        "endColumns": "92,99,96,98,95,101,99,100",
-                        "endOffsets": "193,293,390,489,585,687,787,7969"
+                        "startLines": "85,86",
+                        "startColumns": "4,4",
+                        "startOffsets": "8235,8322",
+                        "endColumns": "86,85",
+                        "endOffsets": "8317,8403"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\0017cc59209bc535f3064e1988d2eca0\\transformed\\ui-release\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\7f94c9f79a2b073bb7dd6c8a8a876404\\transformed\\ui-release\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\df85d40ea66269dbc5b1c91eeced251d\\transformed\\material3-release\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\99f7e2ed3289b1046b47c60959629300\\transformed\\material3-release\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\d46486ec6f121f98436455a3c2243013\\transformed\\foundation-release\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\98e01c42370ac6203898a44bd35e00be\\transformed\\core-1.16.0\\res\\values-am\\values-am.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,142",
-                        "endColumns": "86,85",
-                        "endOffsets": "137,223"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
                     },
                     "to": {
-                        "startLines": "85,86",
-                        "startColumns": "4,4",
-                        "startOffsets": "8235,8322",
-                        "endColumns": "86,85",
-                        "endOffsets": "8317,8403"
+                        "startLines": "2,3,4,5,6,7,8,81",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,198,298,395,494,590,692,7873",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "193,293,390,489,585,687,787,7969"
                     }
                 }
             ]
