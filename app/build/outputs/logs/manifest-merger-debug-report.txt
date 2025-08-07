@@ -1,62 +1,112 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\91c8de861912472b9bc14dd28dfb6aa1\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\ad7384650ea25697c427775f964e1ecf\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\839d58e01a37b014e38ad51ba5a95852\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\f2e4d56ec917bc4457e43fd5610e27b5\transformed\navigation-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\99f7e2ed3289b1046b47c60959629300\transformed\material3-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\521fe8f32f842db33b570271a99574d5\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\2840017fa855adae5b6730f3929835d8\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\0ae0bbaac5aa96f1ef244cd3c6c8b298\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\28c704c5ce527d2356cb1b095be50626\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bb232e2920f5456c6da66bd319493f1f\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f44877daf39c75290471532dadb64af0\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b314af1bc5875ed342522eee89797d52\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\44c36f1de8160b9a6f8ee96d4fe6b9c0\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\ea1a7e512891b213c521f9c9dcc7c3e2\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f68178794627ac18bd5d3525200b70b0\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\6acb4c80458aa20cc2f25825bbdc5792\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b5ac8d92d94b8a8dac2601e34309a930\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a01b39d6faba61fcd1b6ef1311a9bbe4\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\475f03df504f382129fb417caf5efa8c\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5386a0deadbce34d6d4b7ab8094ed74e\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a7233a134ebccf7c1488184ab05af9ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\25724f654bd0fad222b9163d4990e5ee\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\f171e47b5255e01d02fb2ce58262f707\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\48d4e3b6268472e53db2c718fe25257c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\37b94192241d1c91c63c549710718020\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\77e3652856dd8d8b55b123981a6038e5\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ad924801c8129c848b9e453ce7769899\transformed\savedstate-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d1dc59e2f9c65277c535e764d0be0071\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c6fff8e243e71532dc3bbc7881d44c91\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\901b8fb1cd67e34eee6ef1f077f03c27\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\787a04e73ee5971419facd842fde47e5\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b87a96a302b8610f9e62034e91782b35\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7f94c9f79a2b073bb7dd6c8a8a876404\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\694ae11be956d9456e1b544d0cb2b8e4\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a9be1914df080829ebba79a04e638b80\transformed\activity-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b74548f2ede58e33d1c0ef8e9faa5e4b\transformed\activity-compose-1.10.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c4e655215e0c9740c676bded287c1653\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9f3e8c355c80996f00a0a40a02a874b6\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26fc6720139758b41eea67647259b8c8\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\85c1bb4eb90007baa92d26d3178fa3f7\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5b292d21970dc70301571af315eccd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cb1f269622719ddafd4819460c5116fd\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0d065909a8b9b5b0759d4ed88eb3d5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b9e8c74bee7b64bc2abf24b7b1b4505f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cbee2c7a3e5b21d09ff4375a571da6c8\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\43539f36e54655b5ab2f98618a85c328\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\aa67b6fa66c80aa5e354c5d088f93a2d\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\b7e975e0a7321873bb74eb51289a4811\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\2533cfdd7f946be996a988a357a17881\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\add5630e6c53de8e33e87a44e67c6bdf\transformed\navigation-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5da8a036626e1b837fd187ec02fa74cd\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c22d550fc881f266839f6380fec4511e\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\91ee453d42d29cf96a9c3ff28133cd45\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9bc3e7201fb45e835a255bc39366fa83\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6539c1cb8973d3d986a1014daecc9d6\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c058b22a0f7d1517966eacf24d5caf64\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Afit\.gradle\caches\8.13\transforms\05e48bcb293035d5f38fb36e6f457ac1\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\0ea2c9bbf6b92e9f6c1fe7ebc5c9485b\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\668055e0b2787e5084025bd72bba18ea\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\3983762c7c09d55a982e75580de80ddd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ebc552af34e3264eaaa0c02d77379d71\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7c3ca492534bd7a4aa297309880a82df\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b54063fc5e341a66ac01f4fbc46be4b9\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d71e77d60f7b212d7c16025cda379b1e\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7ed52e48c2e85f4f839c5842a8df373a\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\e9a9223314e17cdf8317cd00931c5f02\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8240ff5ba7f22c7d1ee2394cc5096e59\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\1d4c832abf0bb44207bb58eaa3fb2e8c\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\34a929da6792f8e59e9134caf1bc747f\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8df87f59fdae2c8ead728883fd7e0d88\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\d9b3fb6680ef1ef5a8586d42ba7bec2f\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\380b8a08b3589ff67a4f90bc110f1e95\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\79d0fe1e2d7437d120d3c20eb1598072\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\3148bc9b9302f2d0e99e692dd6e0f790\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\db9c639b8e674eba70916229bbb44ab4\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b20fef60349a8a862d8b03d25bee7606\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e352f7e3302db557f2d733bb54b8b0f7\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\13e7107ada1a453e15cbb35de23f8f9e\transformed\lifecycle-livedata-core-ktx-2.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\ebd55b58e3434a5370aca50168b52fc0\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\30b04dd94bc0727efa979a876607627a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\d14c9c48038797bf60f878bf3cf59b37\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\06ba5475d46a46e3a5f6c2e94cacb5d7\transformed\lifecycle-viewmodel-2.9.1\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\496f71bb55ba198886b7b3e8cf43804c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b61b8933a0ec3b8c43c0461d1c62d7f9\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5ec1ea26267453555651a1a5eb1fe444\transformed\savedstate-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8b1024646b5e2c19b901991b5db9f71\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5679c4270166a4c0495eaa58acb212\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bbdac0ac1cd2ad8198c27cbe2b45bff0\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58a6cf10e2ea3aff729fa1c3590e3f90\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\80eb6b31511df906ec49343d267d278f\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3bb7bc7dc4cd5344f22dba9651c3cf73\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\22a098f16262090dc8cf208cd8a3b5df\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\cec7a0f26cb26f72d378f80123d2f446\transformed\lifecycle-livedata-2.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\825213e02f40aa6e714d728e68ffec53\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b76d1790337ad27c12776723810aefd8\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\74da9bb41dda2afd5edbbe7d22c410d0\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\472c44207b92053be38ef33622b64087\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\8661f1a8fca1db005f04985c8c465df4\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\5c169ac64d2db42a080e1a9ab0f203b9\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\615211ce4bb5a06242231dd167287103\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\22b8d1707362f4344aa94207374b0ef8\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8a0d5953d75b4969a0321abb66912971\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e53987a8825c4dea6c4219c9c539d803\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\78c0bd91dc1e4bc826945489f07c2a36\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\156ea8dc8aba6b0affbee63e1b3d9026\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\49e08d3270827802021dc44b32b2711c\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b89d5eb5a266f3054830430aa671664a\transformed\activity-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c7009b28be68743a77a92b35befa5558\transformed\activity-compose-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0a1db285747c47b6eff5541dc7d0f6f0\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\6302b612b07b8a7f3925cad3c7149fc9\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c9d66dade2454e1eb339ff7d6371490b\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2f7787b1c3e43f53e33c52c4577f7648\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b9893351a715ea257b13181ca2bba572\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6be4685c0dda4e04e43e349634194f1\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8425e509ca75771a77c62416b25ced4f\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Afit\.gradle\caches\8.13\transforms\89a5abf9a9de83c85c0c89a497b8389b\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b020a4ccf45287e16b300a0a0ab608a1\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\e294eff7c5aec82908bcb9e317acb1d1\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6968eec5d573218c2eb2a2780938387\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b3249c39719df99765d1b389885b79f0\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\994a3e44295b6e7b4ff36f5f0e0eb082\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7e4e349bf1a62219607ad05105240108\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8935672aef871d1c3344bde1ca3bc6ff\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Afit\.gradle\caches\8.13\transforms\61dc6453052f1e7754e9a80c6892961e\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 	package
 		INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -67,280 +117,742 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches
 		INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:4:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:4:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:5:5-85
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:5:58-82
+	android:name
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:5:19-57
 application
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0d065909a8b9b5b0759d4ed88eb3d5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0d065909a8b9b5b0759d4ed88eb3d5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:7:5-31:19
+INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\91ee453d42d29cf96a9c3ff28133cd45\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\91ee453d42d29cf96a9c3ff28133cd45\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9bc3e7201fb45e835a255bc39366fa83\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9bc3e7201fb45e835a255bc39366fa83\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c058b22a0f7d1517966eacf24d5caf64\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c058b22a0f7d1517966eacf24d5caf64\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Afit\.gradle\caches\8.13\transforms\05e48bcb293035d5f38fb36e6f457ac1\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Afit\.gradle\caches\8.13\transforms\05e48bcb293035d5f38fb36e6f457ac1\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e53987a8825c4dea6c4219c9c539d803\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e53987a8825c4dea6c4219c9c539d803\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\78c0bd91dc1e4bc826945489f07c2a36\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\78c0bd91dc1e4bc826945489f07c2a36\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b9893351a715ea257b13181ca2bba572\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b9893351a715ea257b13181ca2bba572\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Afit\.gradle\caches\8.13\transforms\61dc6453052f1e7754e9a80c6892961e\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Afit\.gradle\caches\8.13\transforms\61dc6453052f1e7754e9a80c6892961e\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
 		INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:15:9-47
 	android:dataExtractionRules
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.hygeiaapp.MainActivity
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:15:9-25:20
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:20:13-45
 	android:exported
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:19:13-51
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:21:13-51
 	android:name
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:28:9-30:56
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:screenOrientation
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:29:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:30:13-54
+	android:name
+		ADDED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml:28:19-80
 uses-sdk
 INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\91c8de861912472b9bc14dd28dfb6aa1\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\91c8de861912472b9bc14dd28dfb6aa1\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\ad7384650ea25697c427775f964e1ecf\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\ad7384650ea25697c427775f964e1ecf\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\839d58e01a37b014e38ad51ba5a95852\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\839d58e01a37b014e38ad51ba5a95852\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\f2e4d56ec917bc4457e43fd5610e27b5\transformed\navigation-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\f2e4d56ec917bc4457e43fd5610e27b5\transformed\navigation-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\99f7e2ed3289b1046b47c60959629300\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\99f7e2ed3289b1046b47c60959629300\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\521fe8f32f842db33b570271a99574d5\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\521fe8f32f842db33b570271a99574d5\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\2840017fa855adae5b6730f3929835d8\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\2840017fa855adae5b6730f3929835d8\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\0ae0bbaac5aa96f1ef244cd3c6c8b298\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\0ae0bbaac5aa96f1ef244cd3c6c8b298\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\28c704c5ce527d2356cb1b095be50626\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\28c704c5ce527d2356cb1b095be50626\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bb232e2920f5456c6da66bd319493f1f\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bb232e2920f5456c6da66bd319493f1f\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f44877daf39c75290471532dadb64af0\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f44877daf39c75290471532dadb64af0\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b314af1bc5875ed342522eee89797d52\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b314af1bc5875ed342522eee89797d52\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\44c36f1de8160b9a6f8ee96d4fe6b9c0\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\44c36f1de8160b9a6f8ee96d4fe6b9c0\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\ea1a7e512891b213c521f9c9dcc7c3e2\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\ea1a7e512891b213c521f9c9dcc7c3e2\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f68178794627ac18bd5d3525200b70b0\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\f68178794627ac18bd5d3525200b70b0\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\6acb4c80458aa20cc2f25825bbdc5792\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\6acb4c80458aa20cc2f25825bbdc5792\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b5ac8d92d94b8a8dac2601e34309a930\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b5ac8d92d94b8a8dac2601e34309a930\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a01b39d6faba61fcd1b6ef1311a9bbe4\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a01b39d6faba61fcd1b6ef1311a9bbe4\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\475f03df504f382129fb417caf5efa8c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\475f03df504f382129fb417caf5efa8c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5386a0deadbce34d6d4b7ab8094ed74e\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5386a0deadbce34d6d4b7ab8094ed74e\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a7233a134ebccf7c1488184ab05af9ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a7233a134ebccf7c1488184ab05af9ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\25724f654bd0fad222b9163d4990e5ee\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\25724f654bd0fad222b9163d4990e5ee\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\f171e47b5255e01d02fb2ce58262f707\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\f171e47b5255e01d02fb2ce58262f707\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\48d4e3b6268472e53db2c718fe25257c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\48d4e3b6268472e53db2c718fe25257c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\37b94192241d1c91c63c549710718020\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\37b94192241d1c91c63c549710718020\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\77e3652856dd8d8b55b123981a6038e5\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\77e3652856dd8d8b55b123981a6038e5\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ad924801c8129c848b9e453ce7769899\transformed\savedstate-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ad924801c8129c848b9e453ce7769899\transformed\savedstate-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d1dc59e2f9c65277c535e764d0be0071\transformed\savedstate-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d1dc59e2f9c65277c535e764d0be0071\transformed\savedstate-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c6fff8e243e71532dc3bbc7881d44c91\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c6fff8e243e71532dc3bbc7881d44c91\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\901b8fb1cd67e34eee6ef1f077f03c27\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\901b8fb1cd67e34eee6ef1f077f03c27\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\787a04e73ee5971419facd842fde47e5\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\787a04e73ee5971419facd842fde47e5\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b87a96a302b8610f9e62034e91782b35\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b87a96a302b8610f9e62034e91782b35\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7f94c9f79a2b073bb7dd6c8a8a876404\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7f94c9f79a2b073bb7dd6c8a8a876404\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\694ae11be956d9456e1b544d0cb2b8e4\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\694ae11be956d9456e1b544d0cb2b8e4\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a9be1914df080829ebba79a04e638b80\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\a9be1914df080829ebba79a04e638b80\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b74548f2ede58e33d1c0ef8e9faa5e4b\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b74548f2ede58e33d1c0ef8e9faa5e4b\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c4e655215e0c9740c676bded287c1653\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c4e655215e0c9740c676bded287c1653\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9f3e8c355c80996f00a0a40a02a874b6\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9f3e8c355c80996f00a0a40a02a874b6\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26fc6720139758b41eea67647259b8c8\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26fc6720139758b41eea67647259b8c8\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\85c1bb4eb90007baa92d26d3178fa3f7\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\85c1bb4eb90007baa92d26d3178fa3f7\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5b292d21970dc70301571af315eccd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5b292d21970dc70301571af315eccd\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cb1f269622719ddafd4819460c5116fd\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cb1f269622719ddafd4819460c5116fd\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0d065909a8b9b5b0759d4ed88eb3d5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0d065909a8b9b5b0759d4ed88eb3d5ef\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b9e8c74bee7b64bc2abf24b7b1b4505f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b9e8c74bee7b64bc2abf24b7b1b4505f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cbee2c7a3e5b21d09ff4375a571da6c8\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\cbee2c7a3e5b21d09ff4375a571da6c8\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\43539f36e54655b5ab2f98618a85c328\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\43539f36e54655b5ab2f98618a85c328\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\aa67b6fa66c80aa5e354c5d088f93a2d\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\aa67b6fa66c80aa5e354c5d088f93a2d\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\b7e975e0a7321873bb74eb51289a4811\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\b7e975e0a7321873bb74eb51289a4811\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\2533cfdd7f946be996a988a357a17881\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\2533cfdd7f946be996a988a357a17881\transformed\navigation-runtime-ktx-2.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\add5630e6c53de8e33e87a44e67c6bdf\transformed\navigation-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.3] C:\Users\Afit\.gradle\caches\8.13\transforms\add5630e6c53de8e33e87a44e67c6bdf\transformed\navigation-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5da8a036626e1b837fd187ec02fa74cd\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5da8a036626e1b837fd187ec02fa74cd\transformed\barcode-scanning-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c22d550fc881f266839f6380fec4511e\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c22d550fc881f266839f6380fec4511e\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\91ee453d42d29cf96a9c3ff28133cd45\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\91ee453d42d29cf96a9c3ff28133cd45\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9bc3e7201fb45e835a255bc39366fa83\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\9bc3e7201fb45e835a255bc39366fa83\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6539c1cb8973d3d986a1014daecc9d6\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6539c1cb8973d3d986a1014daecc9d6\transformed\vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c058b22a0f7d1517966eacf24d5caf64\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c058b22a0f7d1517966eacf24d5caf64\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Afit\.gradle\caches\8.13\transforms\05e48bcb293035d5f38fb36e6f457ac1\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Afit\.gradle\caches\8.13\transforms\05e48bcb293035d5f38fb36e6f457ac1\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\0ea2c9bbf6b92e9f6c1fe7ebc5c9485b\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\0ea2c9bbf6b92e9f6c1fe7ebc5c9485b\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\668055e0b2787e5084025bd72bba18ea\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\668055e0b2787e5084025bd72bba18ea\transformed\camera-lifecycle-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\3983762c7c09d55a982e75580de80ddd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\3983762c7c09d55a982e75580de80ddd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ebc552af34e3264eaaa0c02d77379d71\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ebc552af34e3264eaaa0c02d77379d71\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7c3ca492534bd7a4aa297309880a82df\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7c3ca492534bd7a4aa297309880a82df\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b54063fc5e341a66ac01f4fbc46be4b9\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b54063fc5e341a66ac01f4fbc46be4b9\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d71e77d60f7b212d7c16025cda379b1e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d71e77d60f7b212d7c16025cda379b1e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7ed52e48c2e85f4f839c5842a8df373a\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\7ed52e48c2e85f4f839c5842a8df373a\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\e9a9223314e17cdf8317cd00931c5f02\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\e9a9223314e17cdf8317cd00931c5f02\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8240ff5ba7f22c7d1ee2394cc5096e59\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8240ff5ba7f22c7d1ee2394cc5096e59\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\1d4c832abf0bb44207bb58eaa3fb2e8c\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\1d4c832abf0bb44207bb58eaa3fb2e8c\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\34a929da6792f8e59e9134caf1bc747f\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\34a929da6792f8e59e9134caf1bc747f\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8df87f59fdae2c8ead728883fd7e0d88\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8df87f59fdae2c8ead728883fd7e0d88\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\d9b3fb6680ef1ef5a8586d42ba7bec2f\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\d9b3fb6680ef1ef5a8586d42ba7bec2f\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\380b8a08b3589ff67a4f90bc110f1e95\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\380b8a08b3589ff67a4f90bc110f1e95\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\79d0fe1e2d7437d120d3c20eb1598072\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\79d0fe1e2d7437d120d3c20eb1598072\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\3148bc9b9302f2d0e99e692dd6e0f790\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\3148bc9b9302f2d0e99e692dd6e0f790\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\db9c639b8e674eba70916229bbb44ab4\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\db9c639b8e674eba70916229bbb44ab4\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b20fef60349a8a862d8b03d25bee7606\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b20fef60349a8a862d8b03d25bee7606\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e352f7e3302db557f2d733bb54b8b0f7\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e352f7e3302db557f2d733bb54b8b0f7\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\13e7107ada1a453e15cbb35de23f8f9e\transformed\lifecycle-livedata-core-ktx-2.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\13e7107ada1a453e15cbb35de23f8f9e\transformed\lifecycle-livedata-core-ktx-2.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\ebd55b58e3434a5370aca50168b52fc0\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\ebd55b58e3434a5370aca50168b52fc0\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\30b04dd94bc0727efa979a876607627a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\30b04dd94bc0727efa979a876607627a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\d14c9c48038797bf60f878bf3cf59b37\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\d14c9c48038797bf60f878bf3cf59b37\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\06ba5475d46a46e3a5f6c2e94cacb5d7\transformed\lifecycle-viewmodel-2.9.1\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\06ba5475d46a46e3a5f6c2e94cacb5d7\transformed\lifecycle-viewmodel-2.9.1\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\496f71bb55ba198886b7b3e8cf43804c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\496f71bb55ba198886b7b3e8cf43804c\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b61b8933a0ec3b8c43c0461d1c62d7f9\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b61b8933a0ec3b8c43c0461d1c62d7f9\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5ec1ea26267453555651a1a5eb1fe444\transformed\savedstate-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\5ec1ea26267453555651a1a5eb1fe444\transformed\savedstate-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8b1024646b5e2c19b901991b5db9f71\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8b1024646b5e2c19b901991b5db9f71\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5679c4270166a4c0495eaa58acb212\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a5679c4270166a4c0495eaa58acb212\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bbdac0ac1cd2ad8198c27cbe2b45bff0\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\bbdac0ac1cd2ad8198c27cbe2b45bff0\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58a6cf10e2ea3aff729fa1c3590e3f90\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58a6cf10e2ea3aff729fa1c3590e3f90\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\80eb6b31511df906ec49343d267d278f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\80eb6b31511df906ec49343d267d278f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3bb7bc7dc4cd5344f22dba9651c3cf73\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3bb7bc7dc4cd5344f22dba9651c3cf73\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\22a098f16262090dc8cf208cd8a3b5df\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\22a098f16262090dc8cf208cd8a3b5df\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\cec7a0f26cb26f72d378f80123d2f446\transformed\lifecycle-livedata-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\cec7a0f26cb26f72d378f80123d2f446\transformed\lifecycle-livedata-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\825213e02f40aa6e714d728e68ffec53\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\825213e02f40aa6e714d728e68ffec53\transformed\lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b76d1790337ad27c12776723810aefd8\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b76d1790337ad27c12776723810aefd8\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\74da9bb41dda2afd5edbbe7d22c410d0\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\74da9bb41dda2afd5edbbe7d22c410d0\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\472c44207b92053be38ef33622b64087\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\472c44207b92053be38ef33622b64087\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\8661f1a8fca1db005f04985c8c465df4\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\8661f1a8fca1db005f04985c8c465df4\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\5c169ac64d2db42a080e1a9ab0f203b9\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\5c169ac64d2db42a080e1a9ab0f203b9\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\615211ce4bb5a06242231dd167287103\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\615211ce4bb5a06242231dd167287103\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\22b8d1707362f4344aa94207374b0ef8\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.3] C:\Users\Afit\.gradle\caches\8.13\transforms\22b8d1707362f4344aa94207374b0ef8\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8a0d5953d75b4969a0321abb66912971\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8a0d5953d75b4969a0321abb66912971\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e53987a8825c4dea6c4219c9c539d803\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\e53987a8825c4dea6c4219c9c539d803\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\78c0bd91dc1e4bc826945489f07c2a36\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\78c0bd91dc1e4bc826945489f07c2a36\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\156ea8dc8aba6b0affbee63e1b3d9026\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\156ea8dc8aba6b0affbee63e1b3d9026\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\49e08d3270827802021dc44b32b2711c\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\49e08d3270827802021dc44b32b2711c\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b89d5eb5a266f3054830430aa671664a\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b89d5eb5a266f3054830430aa671664a\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c7009b28be68743a77a92b35befa5558\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c7009b28be68743a77a92b35befa5558\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0a1db285747c47b6eff5541dc7d0f6f0\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0a1db285747c47b6eff5541dc7d0f6f0\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\6302b612b07b8a7f3925cad3c7149fc9\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\6302b612b07b8a7f3925cad3c7149fc9\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c9d66dade2454e1eb339ff7d6371490b\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Afit\.gradle\caches\8.13\transforms\c9d66dade2454e1eb339ff7d6371490b\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2f7787b1c3e43f53e33c52c4577f7648\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2f7787b1c3e43f53e33c52c4577f7648\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b9893351a715ea257b13181ca2bba572\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\b9893351a715ea257b13181ca2bba572\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6be4685c0dda4e04e43e349634194f1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6be4685c0dda4e04e43e349634194f1\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8425e509ca75771a77c62416b25ced4f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8425e509ca75771a77c62416b25ced4f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Afit\.gradle\caches\8.13\transforms\89a5abf9a9de83c85c0c89a497b8389b\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Afit\.gradle\caches\8.13\transforms\89a5abf9a9de83c85c0c89a497b8389b\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b020a4ccf45287e16b300a0a0ab608a1\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b020a4ccf45287e16b300a0a0ab608a1\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\e294eff7c5aec82908bcb9e317acb1d1\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Afit\.gradle\caches\8.13\transforms\e294eff7c5aec82908bcb9e317acb1d1\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6968eec5d573218c2eb2a2780938387\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b6968eec5d573218c2eb2a2780938387\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b3249c39719df99765d1b389885b79f0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\b3249c39719df99765d1b389885b79f0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\994a3e44295b6e7b4ff36f5f0e0eb082\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\994a3e44295b6e7b4ff36f5f0e0eb082\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7e4e349bf1a62219607ad05105240108\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\7e4e349bf1a62219607ad05105240108\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8935672aef871d1c3344bde1ca3bc6ff\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8935672aef871d1c3344bde1ca3bc6ff\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Afit\.gradle\caches\8.13\transforms\61dc6453052f1e7754e9a80c6892961e\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Afit\.gradle\caches\8.13\transforms\61dc6453052f1e7754e9a80c6892961e\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Afit\AndroidStudioProjects\hygeiaApp\app\src\main\AndroidManifest.xml
-activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:15:9-23:19
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\8f98ccd6d6499b00cf1076e1daed3d1e\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\0738fc7e8c1bb0cc0546bcc47c6a862f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d85b94a15ef54b15386313dd6abd6f2a\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
-permission#com.example.hygeiaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.hygeiaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\98e01c42370ac6203898a44bd35e00be\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\3a95f022050d4d79308c83598ac6adde\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
-activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\26e56fb84141428291508ddb0db94043\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:24:13-63
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\572b67af0893f7fa9ddccdb17825d044\transformed\play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a85fdc58c5c0eb8b409f746cf82041e6\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] C:\Users\Afit\.gradle\caches\8.13\transforms\116477cbbeb897a409bb727bdb080648\transformed\common-18.9.0\AndroidManifest.xml:21:17-120
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\d86c38cb89527e489b507298b8604f8c\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\44c574dcfcff751cdcc48c124a820ce2\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\352f6d60a3f42d3ac0ec1e14a516856e\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a64a45de300eb040471b15db75c78346\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:31:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\641b42f7d35ab64d49ed44662c027ad8\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\58cba39d99e67b94d0a9a41b314fd139\transformed\firebase-installations-19.0.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.0] C:\Users\Afit\.gradle\caches\8.13\transforms\17150a23585b8e8c219b5109666c0703\transformed\firebase-common-22.0.0\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\8b73ad65d58e9b18316b65183b7026c8\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\4a4fe22b4de325a96bf07fd93b355436\transformed\camera-core-1.3.0\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\0d2707b1b571de6c7b99c87f12f9e1a0\transformed\camera-camera2-1.3.0\AndroidManifest.xml:31:17-103
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\b386cd5bb60c9e2fc1356aa4c0167e65\transformed\ui-test-manifest-1.7.8\AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\Afit\.gradle\caches\8.13\transforms\512bceeefe8c48bd1794baa30a7c9797\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Afit\.gradle\caches\8.13\transforms\7b1e21150c13eeec9ac944021b884e37\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\eee38b94314b1fa2c9fe407688893259\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\Afit\.gradle\caches\8.13\transforms\8b5df4390e378a7889f05ceae9aa395a\transformed\lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+permission#com.example.hygeiaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.hygeiaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\Afit\.gradle\caches\8.13\transforms\dee4248c879d234c6593829b5ac3d6d8\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Afit\.gradle\caches\8.13\transforms\70a931b185e1f1a6f92632ae3b2f8d73\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Afit\.gradle\caches\8.13\transforms\2435d3d9920e169fa951198957055967\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\c37be7645f70466d4ebfdc8ffbd83670\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Afit\.gradle\caches\8.13\transforms\ba5ac6936c54c6ae8ca0ad458dd728e0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Afit\.gradle\caches\8.13\transforms\4e643b76bc2daf66918e78655f74aaed\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Afit\.gradle\caches\8.13\transforms\5388a8d13fdd74cc7b15ff16957fa850\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Afit\.gradle\caches\8.13\transforms\a8fc08d1469f971da0abcb728f5687e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45

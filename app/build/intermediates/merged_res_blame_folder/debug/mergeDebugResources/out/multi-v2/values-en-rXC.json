@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hygeiaapp-mergeDebugResources-51:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.hygeiaapp-mergeDebugResources-67:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\99f7e2ed3289b1046b47c60959629300\\transformed\\material3-release\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\0ea2c9bbf6b92e9f6c1fe7ebc5c9485b\\transformed\\material3-release\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\7f94c9f79a2b073bb7dd6c8a8a876404\\transformed\\ui-release\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\bbdac0ac1cd2ad8198c27cbe2b45bff0\\transformed\\ui-release\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\98e01c42370ac6203898a44bd35e00be\\transformed\\core-1.16.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\dee4248c879d234c6593829b5ac3d6d8\\transformed\\core-1.16.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\b314af1bc5875ed342522eee89797d52\\transformed\\foundation-release\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\8df87f59fdae2c8ead728883fd7e0d88\\transformed\\foundation-release\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

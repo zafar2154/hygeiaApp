@@ -9,6 +9,7 @@ import androidx.navigation.compose.composable
 sealed class Screen(val route: String) {
     object Login : Screen("login")
     object Home : Screen("home")
+    object Qr : Screen("qr")
 }
 
 @Composable
@@ -27,7 +28,10 @@ fun AppNavigation(navController: NavHostController) {
             )
         }
         composable(Screen.Home.route) {
-            HomePage()
+            HomePage(navController) // jangan lupa kirim navController
+        }
+        composable(Screen.Qr.route) {
+            QRScanScreen()
         }
     }
 }

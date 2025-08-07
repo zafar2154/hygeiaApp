@@ -1,5 +1,6 @@
 package com.example.hygeiaapp
 
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -68,7 +69,7 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     AppNavigation(navController)
                 }
-                }
             }
         }
     }
+}
