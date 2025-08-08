@@ -19,6 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.hygeiaapp.NavBar
 import com.example.hygeiaapp.R // Pastikan Anda memiliki gambar di res/drawable
 import com.example.hygeiaapp.ui.theme.HygeiaAppTheme
@@ -41,14 +43,13 @@ val healthTipsList = listOf(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HygeiaHomeScreen() {
+fun HomePage(navController: NavHostController) {
     Scaffold(
         topBar = { NavBar() },
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-                    // TODO: Tambahkan logika untuk membuka kamera scanner QR di sini
-                    // Misalnya: panggil fungsi dari ViewModel untuk memulai pemindaian
+                    navController.navigate("qr")
                 },
                 containerColor = MaterialTheme.colorScheme.secondary
             ) {
@@ -170,6 +171,6 @@ fun HealthTipCard(tip: HealthTip) {
 @Composable
 fun HygeiaHomeScreenPreview() {
     HygeiaAppTheme {
-        HygeiaHomeScreen()
+        HomePage(navController = rememberNavController())
     }
 }

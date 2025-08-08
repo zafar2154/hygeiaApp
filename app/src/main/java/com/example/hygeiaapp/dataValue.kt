@@ -42,7 +42,7 @@ import com.example.hygeiaapp.ui.theme.TertiaryBlue
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomePage() {
+fun DataValue() {
     val urineParams = listOf(
         "Leukocytes", "Nitrite", "Urobilinogen", "Protein", "pH",
         "Blood", "Specific Gravity", "Ketone", "Bilirubin", "Glucose"
