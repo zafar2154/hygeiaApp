@@ -36,6 +36,7 @@ import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.barcode.common.Barcode
 import com.google.mlkit.vision.common.InputImage
+import java.net.URLEncoder
 import java.util.concurrent.Executors
 
 @kotlin.OptIn(ExperimentalPermissionsApi::class)
@@ -51,8 +52,10 @@ fun QRCodeScannerScreen(navController: NavController) {
         if (cameraPermissionState.status.isGranted) {
             // Display the camera preview, it will fill the entire screen
             CameraPreview { result ->
+                val encodedResult = URLEncoder.encode(result, "UTF-8") // Encode the data
+
                 // Navigate to the result screen once a QR code is scanned
-                navController.navigate("result/${result}") {
+                navController.navigate("result/${encodedResult}") {
                     // Prevent navigating to the same screen multiple times
                     launchSingleTop = true
                 }
@@ -91,6 +94,7 @@ fun CameraPreview(onQRCodeScanned: (String) -> Unit) {
     val lifecycleOwner = LocalLifecycleOwner.current
     val previewView = remember { PreviewView(context) }
     val cameraExecutor = remember { Executors.newSingleThreadExecutor() }
+
 
     AndroidView(factory = { previewView }, modifier = Modifier.fillMaxSize()) { view ->
         val cameraProviderFuture = ProcessCameraProvider.getInstance(context)

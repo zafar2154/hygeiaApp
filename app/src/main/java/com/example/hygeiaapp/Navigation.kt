@@ -2,9 +2,12 @@ package com.example.hygeiaapp
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import com.example.hygeiaapp.ui.screen.HomePage
+import java.net.URLDecoder
 
 
 sealed class Screen(val route: String) {
@@ -35,9 +38,16 @@ fun AppNavigation(navController: NavHostController) {
         composable(Screen.Qr.route) {
             QRCodeScannerScreen(navController)
         }
-        composable("result/{qrResult}") {
-            backStackEntry -> val result = backStackEntry.arguments?.getString("qrResult") ?: ""
-            ResultPage(result)
+        composable("result/{qrResult}",
+                arguments = listOf(navArgument("qrResult"
+                ) {
+                    type = NavType.StringType
+                }) // 2. Specify the argument type
+        ) {
+            backStackEntry ->
+            val encodedData = backStackEntry.arguments?.getString("qrResult") ?: ""
+            val decodedData = URLDecoder.decode(encodedData, "UTF-8") // Decode the data
+            ResultPage(qrResult = decodedData)
         }
     }
 }
