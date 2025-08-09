@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.play.services.mlkit.barcode.scanning)
     implementation(libs.androidx.runtime)
+    implementation(libs.ui.graphics)
+    implementation(libs.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
