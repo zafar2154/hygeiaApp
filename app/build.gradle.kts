@@ -64,6 +64,7 @@ dependencies {
     implementation("com.google.accompanist:accompanist-permissions:0.34.0")
     implementation(libs.androidx.navigation.compose)
     implementation(libs.play.services.mlkit.barcode.scanning)
+    implementation(libs.androidx.runtime)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

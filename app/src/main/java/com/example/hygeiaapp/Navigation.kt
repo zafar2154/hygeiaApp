@@ -1,6 +1,8 @@
 package com.example.hygeiaapp
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -48,6 +50,6 @@ fun AppNavigation(navController: NavHostController) {
             val encodedData = backStackEntry.arguments?.getString("qrResult") ?: ""
             val decodedData = URLDecoder.decode(encodedData, "UTF-8") // Decode the data
             ResultPage(qrResult = decodedData)
+            }
         }
     }
-}
