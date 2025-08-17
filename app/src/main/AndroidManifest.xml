@@ -31,9 +31,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.journeyapps.barcodescanner.CaptureActivity"
-            android:screenOrientation="sensorLandscape"
-            android:theme="@style/zxing_CaptureTheme"/>
     </application>
 
 </manifest>
