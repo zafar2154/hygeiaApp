@@ -1,173 +1,175 @@
-package com.example.hygeiaapp
+// HygeiaHomeScreen.kt
 
-import android.app.Activity
-import android.content.pm.PackageManager
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
+package com.example.hygeiaapp.ui.screen
+
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CameraAlt
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Icon
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
+import androidx.compose.material.icons.filled.QrCodeScanner
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.hygeiaapp.NavBar
+import com.example.hygeiaapp.R // Pastikan Anda memiliki gambar di res/drawable
 import com.example.hygeiaapp.ui.theme.HygeiaAppTheme
-import android.Manifest
-import android.util.Log
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
-import com.google.zxing.integration.android.IntentIntegrator
 
+// Data class untuk menampung data tips kesehatan
+data class HealthTip(
+    val title: String,
+    val description: String
+)
+
+// Daftar tips kesehatan (bisa diambil dari ViewModel atau API nantinya)
+val healthTipsList = listOf(
+    HealthTip("Hidrasi adalah Kunci", "Pastikan minum 8-10 gelas air setiap hari. Hygeia dapat membantu memantau tingkat hidrasi Anda melalui warna dan konsentrasi urine."),
+    HealthTip("Nutrisi Seimbang", "Konsumsi beragam buah, sayur, protein, dan karbohidrat kompleks. Apa yang Anda makan akan tercermin pada hasil analisis Hygeia."),
+    HealthTip("Pentingnya Istirahat", "Tidur 7-8 jam setiap malam membantu regenerasi sel dan menjaga keseimbangan hormon. Kurang tidur dapat memengaruhi kesehatan Anda secara keseluruhan."),
+    HealthTip("Aktivitas Fisik Teratur", "Lakukan olahraga ringan hingga sedang setidaknya 30 menit setiap hari. Ini membantu meningkatkan metabolisme dan kesehatan jantung."),
+    HealthTip("Jangan Abaikan Sinyal Tubuh", "Hygeia adalah alat bantu. Jika Anda merasa tidak sehat atau hasil menunjukkan anomali, segera konsultasikan dengan dokter profesional.")
+)
+
+
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomePage(navController: NavHostController) {
-    val context = LocalContext.current
-    val activity = context as? Activity
-    val launcher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            val intentResult = IntentIntegrator.parseActivityResult(
-                result.resultCode, result.data
-            )
-            val qrResult = intentResult?.contents
-            // TODO: Lakukan sesuatu dengan hasil QR
-            Log.d("QR_RESULT", "Hasil: $qrResult")
-        }
-    }
     Scaffold(
         topBar = { NavBar() },
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(Color.White)
-                .padding(paddingValues)
-                .padding(20.dp)
-                .verticalScroll(rememberScrollState())
-            ,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Spacer(modifier = Modifier.height(16.dp))
-
-            Text(
-                text = "Hygiea",
-                fontSize = 28.sp,
-                fontWeight = FontWeight.Bold,
-                color = Color.Black
-            )
-            Text(
-                text = "Health Check Urinoir",
-                fontSize = 16.sp,
-                color = Color.Gray
-            )
-
-                Spacer(modifier = Modifier.height(8.dp))
-
-                Text(
-                    text = "",
-                    fontSize = 16.sp,
-                    color = Color.DarkGray
-                )
-
-                Spacer(modifier = Modifier.height(24.dp))
-
-                // Tentang Proyek
-                Text(
-                    text = "Tentang Alat",
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.SemiBold
-                )
-
-                Spacer(modifier = Modifier.height(8.dp))
-
-                Text(
-                    text = "Sistem monitoring kesehatan dan deteksi dini penyakit berbasis urinalysis dengan menggunakan artificial Intelligence dan Internet of Things",
-                    fontSize = 14.sp,
-                    color = Color.Gray,
-                    textAlign = TextAlign.Center
-                )
-
-                Spacer(modifier = Modifier.height(80.dp))
-
-                // Tips Sehat
-                Text(
-                    text = "Tips Hidup Sehat",
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.SemiBold
-                )
-
-                Spacer(modifier = Modifier.height(8.dp))
-
-                val tips = listOf(
-                    "Minum air putih minimal 2 liter per hari.",
-                    "Perhatikan warna urin — semakin jernih, semakin baik.",
-                    "Kurangi konsumsi makanan tinggi garam dan gula.",
-                    "Rutin berolahraga minimal 3 kali seminggu.",
-                    "Jangan menahan buang air kecil terlalu lama.",
-                    "Lakukan pemeriksaan urin secara berkala."
-                )
-
-                tips.forEach { tip ->
-                    Row(
-                        verticalAlignment = Alignment.Top,
-                        modifier = Modifier.padding(vertical = 4.dp)
-                    ) {
-                        Text("•", fontSize = 16.sp)
-                        Spacer(modifier = Modifier.width(8.dp))
-                        Text(tip, fontSize = 14.sp)
-                    }
-                }
-
-
-                Spacer(modifier = Modifier.height(32.dp))
-            Button(
+        floatingActionButton = {
+            FloatingActionButton(
                 onClick = {
-                    val integrator = IntentIntegrator(activity).apply {
-                        setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
-                        setPrompt("Scan QR Code")
-                        setBeepEnabled(true)
-                        setCameraId(0)
-                        setOrientationLocked(false)
-                        setBarcodeImageEnabled(true)
-                    }
-                    launcher.launch(integrator.createScanIntent())
+                    navController.navigate("qr")
                 },
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF1565C0))
+                containerColor = MaterialTheme.colorScheme.secondary
             ) {
-                Icon(Icons.Filled.CameraAlt, contentDescription = "Scan QR", tint = Color.White)
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("Scan QR Code", color = Color.White)
-            }
-            }
+                Icon(
+                    imageVector = Icons.Filled.QrCodeScanner,
+                    contentDescription = "Scan QR Code",
+                    tint = MaterialTheme.colorScheme.onSecondary
+                )
             }
         }
+    ) { paddingValues ->
+        // LazyColumn digunakan untuk membuat daftar yang bisa di-scroll secara efisien
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+                .padding(horizontal = 16.dp)
+        ) {
+            // Bagian 1: Hero Section
+            item {
+                HeroSection()
+                Spacer(modifier = Modifier.height(24.dp))
+            }
 
+            // Bagian 2: Keterangan Produk
+            item {
+                ProductDescriptionSection()
+                Spacer(modifier = Modifier.height(24.dp))
+            }
 
+            // Bagian 3: Tips-tips Kesehatan
+            item {
+                Text(
+                    text = "Tips Kesehatan dari Hygeia",
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(16.dp))
+            }
+
+            items(healthTipsList) { tip ->
+                HealthTipCard(tip = tip)
+                Spacer(modifier = Modifier.height(12.dp))
+            }
+
+            item {
+                Spacer(modifier = Modifier.height(16.dp)) // Extra space at the bottom
+            }
+        }
+    }
+}
+
+@Composable
+fun HeroSection() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Spacer(modifier = Modifier.height(20.dp))
+        Text(
+            text = "Hygeia",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Text(
+            text = "Kesehatan Anda, Terdeteksi Dini",
+            style = MaterialTheme.typography.headlineSmall,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+    }
+}
+
+@Composable
+fun ProductDescriptionSection() {
+    Column(modifier = Modifier.fillMaxWidth()) {
+        Text(
+            text = "Apa itu Hygeia?",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(
+            text = "Hygeia adalah urinoir pintar revolusioner yang dirancang untuk memantau kesehatan Anda secara real-time. Dengan sensor canggih, Hygeia menganalisis parameter kunci dalam urine untuk memberikan deteksi dini, wawasan kesehatan, dan saran yang dipersonalisasi langsung ke aplikasi smartphone Anda. Ini adalah cara termudah untuk menjadikan pengecekan kesehatan sebagai bagian dari rutinitas harian Anda.",
+            style = MaterialTheme.typography.bodyLarge
+        )
+    }
+}
+
+@Composable
+fun HealthTipCard(tip: HealthTip) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text(
+                text = tip.title,
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = tip.description,
+                style = MaterialTheme.typography.bodyMedium
+            )
+        }
+    }
+}
+
+// Preview untuk melihat tampilan di Android Studio
 @Preview(showBackground = true)
 @Composable
-fun HomePagePreview() {
+fun HygeiaHomeScreenPreview() {
     HygeiaAppTheme {
         HomePage(navController = rememberNavController())
     }
