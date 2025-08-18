@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hygeiaapp-mergeDebugResources-73:/values-v30/values-v30.xml",
+            "outputFile": "com.example.hygeiaapp-mergeDebugResources-89:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\0117fee7e00a3ebcce9f0cb158f679c8\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\Afit\\.gradle\\caches\\8.13\\transforms\\a2b356c07584da2d792ca0e7843046bf\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

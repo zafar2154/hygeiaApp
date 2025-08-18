@@ -1,8 +1,6 @@
 package com.example.hygeiaapp
 
-import android.view.MotionEvent
 import android.view.ScaleGestureDetector
-import android.view.View
 import androidx.camera.core.Camera
 import androidx.camera.view.PreviewView
 import com.google.android.material.slider.Slider

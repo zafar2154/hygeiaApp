@@ -1,14 +1,12 @@
 package com.example.hygeiaapp
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.hygeiaapp.ui.screen.HomePage
 import java.net.URLDecoder
 
 
@@ -16,26 +14,23 @@ sealed class Screen(val route: String) {
     object Login : Screen("login")
     object Home : Screen("home")
     object Qr : Screen("qr")
-    object Result : Screen("result")
+    object SignUp : Screen("signup")
 }
 
 @Composable
-fun AppNavigation(navController: NavHostController) {
+fun AppNavigation(navController: NavHostController, authViewModel: AuthViewModel = AuthViewModel()) {
     NavHost(
         navController = navController,
         startDestination = Screen.Login.route
     ) {
         composable(Screen.Login.route) {
-            LoginPage(
-                onLoginSuccess = {
-                    navController.navigate(Screen.Home.route) {
-                        popUpTo(Screen.Login.route) { inclusive = true }
-                    }
-                }
-            )
+            LoginScreen(navController, authViewModel)
+        }
+        composable(Screen.SignUp.route) {
+            SignUpScreen(navController, authViewModel)
         }
         composable(Screen.Home.route) {
-            HomePage(navController)
+            HomePage(navController, authViewModel)
         }
         composable(Screen.Qr.route) {
             QRCodeScannerScreen(navController)

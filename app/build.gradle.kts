@@ -1,7 +1,8 @@
 plugins {
-    alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.gms.google-services")
+    id("com.android.application")
 }
 
 android {
@@ -55,19 +56,29 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.9.0")
     implementation("androidx.compose.ui:ui:1.6.7")
     implementation("androidx.compose.material:material:1.6.7")
-    implementation("com.google.mlkit:barcode-scanning:17.2.0")
+    implementation("com.google.mlkit:barcode-scanning:17.3.0")
     implementation("androidx.camera:camera-core:1.3.4")
     implementation("androidx.camera:camera-camera2:1.3.4")
     implementation("androidx.camera:camera-lifecycle:1.3.4")
     implementation("androidx.camera:camera-view:1.3.4")
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("com.google.accompanist:accompanist-permissions:0.34.0")
+    implementation("com.google.accompanist:accompanist-permissions:0.37.3")
+    implementation(platform("com.google.firebase:firebase-bom:34.1.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+
+
+
     implementation(libs.androidx.navigation.compose)
     implementation(libs.play.services.mlkit.barcode.scanning)
     implementation(libs.androidx.runtime)
     implementation(libs.ui.graphics)
     implementation(libs.ui)
     implementation(libs.material)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.runtime)
+    implementation(libs.ads.mobile.sdk)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

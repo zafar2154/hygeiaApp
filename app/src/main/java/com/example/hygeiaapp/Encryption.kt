@@ -71,18 +71,14 @@ fun main() {
     val encryptedText = encryptAES(plainText, key)
     println("Encrypted: $encryptedText")
 
-    if (encryptedText != null) {
-        val decode = "yqnKO5wGvmr+hcrQUs60NCMOsmDTTQnujfpDoRDPje4Dxi3s7LoVHy/0NDaUL2a652gGxRI=:KREtEjew6bCA4Ug2yU8qcA=="
-        val decryptedText = decryptAES(decode, key)
-        println("Decrypted: $decryptedText")
+    val decode = "yqnKO5wGvmr+hcrQUs60NCMOsmDTTQnujfpDoRDPje4Dxi3s7LoVHy/0NDaUL2a652gGxRI=:KREtEjew6bCA4Ug2yU8qcA=="
+    val decryptedText = decryptAES(decode, key)
+    println("Decrypted: $decryptedText")
 
-        if (plainText == decryptedText) {
-            println("SUCCESS: Plaintext matches decrypted text.")
-        } else {
-            println("FAILURE: Plaintext does NOT match decrypted text.")
-        }
+    if (plainText == decryptedText) {
+        println("SUCCESS: Plaintext matches decrypted text.")
     } else {
-        println("Encryption failed, cannot proceed to decryption.")
+        println("FAILURE: Plaintext does NOT match decrypted text.")
     }
 
     // Contoh dekripsi string yang sudah ada (pastikan ini dienkripsi dengan key yang sama dan IV yang sesuai)
