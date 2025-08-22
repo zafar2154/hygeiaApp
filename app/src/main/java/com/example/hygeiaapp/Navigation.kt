@@ -1,12 +1,17 @@
 package com.example.hygeiaapp
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.example.hygeiaapp.login.AuthViewModel
+import com.example.hygeiaapp.login.HomePage
+import com.example.hygeiaapp.login.LoginScreen
+import com.example.hygeiaapp.login.SignUpScreen
+import com.example.hygeiaapp.result.ResultPage
+import com.example.hygeiaapp.scan.QRCodeScannerScreen
 import java.net.URLDecoder
 
 

@@ -1,4 +1,4 @@
-package com.example.hygeiaapp
+package com.example.hygeiaapp.login
 
 import android.util.Log
 import androidx.lifecycle.ViewModel

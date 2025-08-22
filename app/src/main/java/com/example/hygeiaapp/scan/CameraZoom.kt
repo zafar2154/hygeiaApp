@@ -1,4 +1,4 @@
-package com.example.hygeiaapp
+package com.example.hygeiaapp.scan
 
 import android.view.ScaleGestureDetector
 import androidx.camera.core.Camera

@@ -1,4 +1,4 @@
-package com.example.hygeiaapp
+package com.example.hygeiaapp.scan
 
 // Hapus atau komentari impor Android Base64 jika hanya untuk main()
 // import android.util.Base64
@@ -71,7 +71,7 @@ fun main() {
     val encryptedText = encryptAES(plainText, key)
     println("Encrypted: $encryptedText")
 
-    val decode = "yqnKO5wGvmr+hcrQUs60NCMOsmDTTQnujfpDoRDPje4Dxi3s7LoVHy/0NDaUL2a652gGxRI=:KREtEjew6bCA4Ug2yU8qcA=="
+    val decode = "2YtylQxSpZM2AFTt7tKSE8DNc3+3Pzuxq1g5yKyJINXM7IVrW0T/bf4zyt1Klca1XXzko08kY/nRneq9u7UXQ+8j+mCpyObhbpxRTN0=:hGZUhDSiI2Lv75TPoN4kvA=="
     val decryptedText = decryptAES(decode, key)
     println("Decrypted: $decryptedText")
 

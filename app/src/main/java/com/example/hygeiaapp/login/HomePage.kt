@@ -1,4 +1,4 @@
-package com.example.hygeiaapp
+package com.example.hygeiaapp.login
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -28,6 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.hygeiaapp.login.AuthViewModel
+import com.example.hygeiaapp.NavBar
 import com.example.hygeiaapp.ui.theme.HygeiaAppTheme
 
 // Data class untuk menampung data tips kesehatan

@@ -1,4 +1,4 @@
-package com.example.hygeiaapp
+package com.example.hygeiaapp.login
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -12,6 +12,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.example.hygeiaapp.login.AuthViewModel
 import com.example.hygeiaapp.ui.theme.HygeiaAppTheme
 
 @Composable
