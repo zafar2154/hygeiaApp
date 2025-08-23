@@ -13,23 +13,6 @@ import javax.crypto.SecretKey
 import javax.crypto.spec.GCMParameterSpec
 import javax.crypto.spec.SecretKeySpec
 // import androidx.camera.core.Logger // Jika tidak digunakan di main, bisa dikomentari
-
-
-@RequiresApi(Build.VERSION_CODES.O)
-fun encryptAES(plainText: String, key: ByteArray): String {
-    val cipher = Cipher.getInstance("AES/GCM/NoPadding")
-    val secretKey: SecretKey = SecretKeySpec(key, "AES")
-    cipher.init(Cipher.ENCRYPT_MODE, secretKey)
-    val iv = cipher.iv
-    val encryptedBytes = cipher.doFinal(plainText.toByteArray(Charsets.UTF_8)) // Pastikan charset konsisten
-
-    // Gunakan Java Base64 untuk encoding
-    val encryptedBase64 = Base64.getEncoder().encodeToString(encryptedBytes)
-    val ivBase64 = Base64.getEncoder().encodeToString(iv)
-
-    return "$encryptedBase64:$ivBase64"
-}
-
 @RequiresApi(Build.VERSION_CODES.O)
 fun decryptAES(encryptedText: String, key: ByteArray): String? {
     try {
@@ -66,12 +49,7 @@ fun main() {
     val plainText = "Hello, AES in GCM!"
     // val enkripsi = "yqnKO5wGvmr+hcrQUs60NCMOsmDTTQnujfpDoRDPje4Dxi3s7LoVHy/0NDaUL2a652gGxRI=:KREtEjew6bCA4Ug2yU8qcA=="
 
-    println("Original: $plainText")
-
-    val encryptedText = encryptAES(plainText, key)
-    println("Encrypted: $encryptedText")
-
-    val decode = "2YtylQxSpZM2AFTt7tKSE8DNc3+3Pzuxq1g5yKyJINXM7IVrW0T/bf4zyt1Klca1XXzko08kY/nRneq9u7UXQ+8j+mCpyObhbpxRTN0=:hGZUhDSiI2Lv75TPoN4kvA=="
+    val decode = "68p6xEUD3whuaZTeJh0zla6cepBTyQnqzXliNVpMUOTghgo4dqNC9c60NcOubGwJM8+CHYDbyagRSQ7nU39t1DgRwefZfZg=:2/Q7DLUAp3QNb1QU1ViJ8A=="
     val decryptedText = decryptAES(decode, key)
     println("Decrypted: $decryptedText")
 

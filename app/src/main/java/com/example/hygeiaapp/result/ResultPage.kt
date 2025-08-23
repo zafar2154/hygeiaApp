@@ -1,5 +1,7 @@
 package com.example.hygeiaapp.result
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,6 +37,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.hygeiaapp.NavBar
 import com.example.hygeiaapp.ui.theme.HygeiaAppTheme
 
+@RequiresApi(Build.VERSION_CODES.O)
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ResultPage(qrResult: String?, resultViewModel: ResultViewModel = viewModel()) {
@@ -242,6 +245,7 @@ private fun ParameterRow(
     HorizontalDivider(Modifier, DividerDefaults.Thickness, DividerDefaults.color)
 }
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Preview(name = "Kondisi dengan Indikasi", showBackground = true)
 @Composable
 fun ResultPageIndicationPreview() {
